@@ -1,0 +1,149 @@
+[
+    {
+        "instance_id": 1,
+        "timeslots": 2,
+        "exams": [
+            { "id": 1, "name": "Mathematics 101" },
+            { "id": 2, "name": "English 101" }
+        ],
+        "conflicts": [
+            { "exam1_id": 1, "exam2_id": 2 }
+        ]
+    },
+    {
+        "instance_id": 2,
+        "timeslots": 2,
+        "exams": [
+            { "id": 1, "name": "Mathematics 101" },
+            { "id": 2, "name": "English Literature" },
+            { "id": 3, "name": "History" }
+        ],
+        "conflicts": [
+            { "exam1_id": 1, "exam2_id": 2 },
+            { "exam1_id": 1, "exam2_id": 3 }
+        ]
+    },
+    {
+        "instance_id": 3,
+        "timeslots": 2,
+        "exams": [
+            { "id": 1, "name": "Pure Mathematics" },
+            { "id": 2, "name": "Mechanics" },
+            { "id": 3, "name": "English Language" },
+            { "id": 4, "name": "English Literature" }
+        ],
+        "conflicts": [
+            { "exam1_id": 1, "exam2_id": 2 },
+            { "exam1_id": 3, "exam2_id": 4 }
+        ]
+    },
+    {
+        "instance_id": 4,
+        "timeslots": 3,
+        "exams": [
+            { "id": 1, "name": "A Level Chemistry" },
+            { "id": 2, "name": "A Level Physics" },
+            { "id": 3, "name": "A Level Biology" }
+        ],
+        "conflicts": [
+            { "exam1_id": 1, "exam2_id": 2 },
+            { "exam1_id": 1, "exam2_id": 3 },
+            { "exam1_id": 2, "exam2_id": 3 }
+
+        ]
+    },
+    {
+        "instance_id": 5,
+        "timeslots": 2,
+        "exams": [
+            { "id": 1, "name": "Mathematics 101" },
+            { "id": 2, "name": "English 101" },
+            { "id": 3, "name": "Computer Science" },
+            { "id": 4, "name": "Drama" },
+            { "id": 5, "name": "Art" }
+        ],
+        "conflicts": [  
+            { "exam1_id": 1, "exam2_id": 2 },
+            { "exam1_id": 1, "exam2_id": 3 },
+            { "exam1_id": 4, "exam2_id": 5 }
+        ]
+    },
+    {
+        "instance_id": 6,
+        "timeslots": 3,
+        "exams": [
+            { "id": 1, "name": "Artificial Intelligence Applications" },
+            { "id": 2, "name": "Data Structures and Algorithms" },
+            { "id": 3, "name": "High Performance Computing" },
+            { "id": 4, "name": "Quantum Computing" }
+        ],
+        "conflicts": [
+            { "exam1_id": 1, "exam2_id": 2 },
+            { "exam1_id": 2, "exam2_id": 3 },
+            { "exam1_id": 3, "exam2_id": 4 },
+            { "exam1_id": 1, "exam2_id": 4 },
+            { "exam1_id": 2, "exam2_id": 4 }
+        ]
+    },
+    {
+        "instance_id": 7,
+        "timeslots": 3,
+        "exams": [
+            { "id": 1, "name": "Quantum AI" },
+            { "id": 2, "name": "Deep Learning" },
+            { "id": 3, "name": "Internet of Things" },
+            { "id": 4, "name": "Innovation Management" },
+            { "id": 5, "name": "Python and Machine Learning" }
+        ],
+        "conflicts": [
+            { "exam1_id": 1, "exam2_id": 2 },
+            { "exam1_id": 1, "exam2_id": 5 },
+            { "exam1_id": 2, "exam2_id": 3 },
+            { "exam1_id": 2, "exam2_id": 4 },
+            { "exam1_id": 2, "exam2_id": 5 },
+            { "exam1_id": 3, "exam2_id": 4 },
+            { "exam1_id": 3, "exam2_id": 5 }
+        ]
+    },
+    {
+        "instance_id": 8,
+        "timeslots": 4,
+        "exams": [
+            { "id": 1, "name": "Sequences and Series" },
+            { "id": 2, "name": "Linear Algebra" },
+            { "id": 3, "name": "Introduction to Complex Numbers" },
+            { "id": 4, "name": "Calculus" }
+        ],
+        "conflicts": [
+            { "exam1_id": 1, "exam2_id": 2 },
+            { "exam1_id": 1, "exam2_id": 3 },
+            { "exam1_id": 1, "exam2_id": 4 },
+            { "exam1_id": 2, "exam2_id": 3 },
+            { "exam1_id": 2, "exam2_id": 4 },
+            { "exam1_id": 3, "exam2_id": 4 }
+        ]
+    },
+    {
+        "instance_id": 9,
+        "timeslots": 4,
+        "exams": [
+            { "id": 1, "name": "Object-Oriented Programming" },
+            { "id": 2, "name": "Computers and the Internet" },
+            { "id": 3, "name": "Mathematical Methods" },
+            { "id": 4, "name": "Data Structures and Algorithms" },
+            { "id": 5, "name": "Introduction to Machine Learning" }
+
+        ],
+        "conflicts": [
+            { "exam1_id": 1, "exam2_id": 2 },
+            { "exam1_id": 1, "exam2_id": 4 },
+            { "exam1_id": 1, "exam2_id": 5 },
+            { "exam1_id": 2, "exam2_id": 3 },
+            { "exam1_id": 2, "exam2_id": 4 },
+            { "exam1_id": 2, "exam2_id": 5 },
+            { "exam1_id": 3, "exam2_id": 4 },
+            { "exam1_id": 3, "exam2_id": 5 },
+            { "exam1_id": 4, "exam2_id": 5 }
+        ]
+    }
+]
